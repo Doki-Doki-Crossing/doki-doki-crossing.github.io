@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./normalize.css"> 
+  <link rel="stylesheet" href="./coloris.css"/>
+  <script src="./coloris.js"></script>
+  <link rel="stylesheet" type="text/css" href="./style.css"> 
+  <script src="./code.js" defer></script>
+  <title>Letter Writer</title>
+  <meta name="description" content="Write a letter on some pretty stationary.">
+  <meta property="og:title" content="Letter Writer">
+  <meta property="og:type" content="Website - App">
+  <meta property="og:url" content="https://sysl.ca/share/tool_letter_writer/index.html">
+  <meta property="og:description" content="Write a letter on some pretty stationary.">
+  <meta property="og:image" content="https://sysl.ca//favicon.png">
+  <link rel="icon" href="https://sysl.ca/favicon.png">
+</head>
+<body>
+<div class="top-menu"><a href="/">Return Home</a></div>
+<div class="image-select-menu"></div>
+<div class="letter-control">
+<div class="letter-main"><canvas id="viewport" width="1230" height="780"></canvas></div>
+<div class="letter-menu">
+  <h2>To:</h2>
+  <input type="text" placeholder="Dear (name)," class="letter-to">
+  <h2>To-Color:</h2>
+  <div class="color-sel"><input class="letter-to-color" type="text" value="#74664b" data-coloris></div>
+  <h2>From:</h2>
+  <input type="text" placeholder="Your Best Friend" class="letter-from">
+  <h2>From-Color:</h2>
+  <div class="color-sel"><input class="letter-from-color" type="text" value="#74664b" data-coloris></div>
+  <h2>Message:</h2>
+  <textarea class="letter-message" placeholder="Write your letter here."></textarea>
+  <h2>Message-Color:</h2>
+  <div class="color-sel"><input class="letter-message-color" type="text" value="#74664b" data-coloris></div>
+</div>
+</div>
+</body>
+</html>
