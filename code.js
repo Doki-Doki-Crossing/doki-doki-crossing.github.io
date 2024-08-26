@@ -176,14 +176,9 @@ function select_image(image_name = "none.png") {
 
 }
 
-// Lazy Download
-
-    var canvas = document.querySelector('#viewport')
-    var anchor = document.createElement("a");
-    anchor.href = canvas.toDataURL("image/png");
-    anchor.download = "IMAGE.PNG";
-    //anchor.click(); 
-
-
-
+function download() {
+  var canvas = document.querySelector('#viewport')
+  var img    = canvas.toDataURL("image/png");
+  document.write('<img src="'+img+'"/>');
+}
 
