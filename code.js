@@ -179,6 +179,6 @@ function select_image(image_name = "none.png") {
 function download() {
   var canvas = document.querySelector('#viewport')
   var img    = canvas.toDataURL("image/png");
-  document.write('<img src="'+img+'"/>');
+  document.write('<img src="'+img+'"/><br><br><p style="color: black; background: white">Refresh Page to make a new image!</p>');
 }
 
